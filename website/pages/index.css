@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "peanutButter";
+  src: url("/website/fonts/PeanutButter.ttf");
+}
+
+.simon {
+  font-size: 0px;
+  width: 400px;
+  height: 400px;
+  
+  position: relative;
+
+  margin-bottom: 30px;
+}
+
+.panelButton {
+  border: solid black;
+  width: 200px;
+  height: 200px;
+}
+
+#yellowButton {
+  background-color: yellow;
+  border-radius: 100% 0 0 0;
+  border-width: 20px 10px 10px 20px;
+}
+
+#blueButton {
+  background-color: blue;
+  border-radius: 0 100% 0 0;
+  border-width: 20px 20px 10px 10px;
+}
+
+#redButton {
+  background-color: crimson;
+  border-radius: 0 0 0 100%;
+  border-width: 10px 10px 20px 20px;
+}
+
+#greenButton {
+  background-color: green;
+  border-radius: 0 0 100% 0;
+  border-width: 10px 20px 20px 10px;
+}
+
+#lightImg {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+#startButton {
+  padding: 5px 8px 5px 8px;
+
+  margin-bottom: 30px;
+}
+
+#wrapperDiv {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+
+  margin: 30px;
+}
+
+button:enabled {
+  cursor: pointer;
+}

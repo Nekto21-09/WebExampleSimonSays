@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Simon Says</title>
+  <link rel="stylesheet" href="/website/styles/general.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>Simon Says</h1>
+    <div class="simon">
+      <button id="yellowButton" class="panelButton"></button>
+      <button id="blueButton" class="panelButton"></button>
+      <button id="redButton" class="panelButton"></button>
+      <button id="greenButton" class="panelButton"></button>
+      <img src="/website/images/light.webp" id="lightImg">
+    </div>
+
+    <button id="startButton">Start Game</button>
+
+    <div>Name: <input id="nameInput" placeholder="Unknown"></div>
+
+    <div id="wrapperDiv">
+      <div id="scoreDiv" style="font-size: 30px;">Score: 0</div>
+      <div id="bestDiv" style="font-size: 30px;">Best: 0</div>
+    </div>
+
+    <a href="leaderboard.html" style="font-size: 25px;">Leaderboard</a>
+
+  </div>
+
+  <script type="module" src="index.js"></script>
+</body>
+
+</html>
