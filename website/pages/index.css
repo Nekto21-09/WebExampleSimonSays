@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "peanutButter";
-  src: url("/website/fonts/PeanutButter.ttf");
+  font-family: "Oswald";
+  src: url("/website/fonts/Oswald.ttf/");
 }
 
 .simon {
@@ -19,26 +19,26 @@
   height: 200px;
 }
 
-#yellowButton {
-  background-color: yellow;
+#earthButton {
+  background-image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlcHPZ6soeL7eAS_zvOwWrJ00DwY0y0-85aQ&s";
   border-radius: 100% 0 0 0;
   border-width: 20px 10px 10px 20px;
 }
 
 #blueButton {
-  background-color: blue;
+  background-image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNv4AYJm14dOWVZzgIw9-clxDRQQucYjnj1w&s";
   border-radius: 0 100% 0 0;
   border-width: 20px 20px 10px 10px;
 }
 
 #redButton {
-  background-color: crimson;
+  background-image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl9EwYffn_1Vn8oHJmj-IykIPRT-ZvguCFCw&s";
   border-radius: 0 0 0 100%;
   border-width: 10px 10px 20px 20px;
 }
 
 #greenButton {
-  background-color: green;
+  background-image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEIkB_MuhGOFa1nFuf3uF1hwyZipH4Mx4wIQ&s";
   border-radius: 0 0 100% 0;
   border-width: 10px 20px 20px 10px;
 }
